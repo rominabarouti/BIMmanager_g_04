@@ -1,8 +1,6 @@
 import ifcopenshell
 
-from .external.BIManalyst_g_xy.rules import windowRule
-from .external.BIManalyst_g_xy.rules import doorRule
-
+from external.Group6.rules import doorRule, windowRule
 model = ifcopenshell.open("path/to/ifcfile.ifc")
 
 windowResult = windowRule.checkRule(model)
