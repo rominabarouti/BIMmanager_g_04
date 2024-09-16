@@ -10,3 +10,6 @@
 [submodule "external/Group-1"]
 	path = external/Group-1
 	url = https://github.com/Navairax/Group-1.git
+[submodule "Group8"]
+	path = Group8
+	url = https://github.com/Ajad2024/Group8.git
