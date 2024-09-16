@@ -13,3 +13,6 @@
 [submodule "Group8"]
 	path = Group8
 	url = https://github.com/Ajad2024/Group8.git
+[submodule "external/Group8"]
+	path = external/Group8
+	url = https://github.com/Ajad2024/Group8.git
