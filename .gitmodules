@@ -1,18 +1,4 @@
-[submodule "external/grupp-9"]
-	path = external/grupp-9
-	url = https://github.com/Noahnox/grupp-9.git
-[submodule "external/Group-8"]
-	path = external/Group-8
-	url = https://github.com/Ajad2024/Group-8.git
-[submodule "external/Group6"]
-	path = external/Group6
-	url = https://github.com/Raghadhamza/Group6.git
-[submodule "external/Group-1"]
-	path = external/Group-1
-	url = https://github.com/Navairax/Group-1.git
-[submodule "Group8"]
-	path = Group8
-	url = https://github.com/Ajad2024/Group8.git
-[submodule "external/Group8"]
-	path = external/Group8
-	url = https://github.com/Ajad2024/Group8.git
+[submodule "external/Group1"]
+	path = external/Group1
+	url = https://github.com/Navairax/Group1.git
+
