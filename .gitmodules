@@ -2,3 +2,6 @@
 	path = external/Group1
 	url = https://github.com/Navairax/Group1.git
 
+[submodule "external/--force"]
+	path = external/--force
+	url = https://github.com/JohnDope90/Group2.git
