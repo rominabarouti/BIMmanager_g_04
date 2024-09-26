@@ -1,3 +1,15 @@
 [submodule "external/Group1"]
 	path = external/Group1
 	url = https://github.com/Navairax/Group1.git
+[submodule "external/Group2"]
+	path = external/Group2
+	url = https://github.com/JohnDope90/Group2.git
+[submodule "external/Group6"]
+	path = external/Group6
+	url = https://github.com/Raghadhamza/Group6.git
+[submodule "external/Group8"]
+	path = external/Group8
+	url = https://github.com/Ajad2024/Group8.git
+[submodule "external/Group9"]
+	path = external/Group9
+	url = https://github.com/Noahnox/Group9.git
