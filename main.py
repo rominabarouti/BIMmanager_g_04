@@ -1,6 +1,6 @@
 import ifcopenshell
 from external.Group1.Heightfloor2floorRule import checkRule
-from external.Group9.rules.wallRule import calculate_wall_area
+#from external.Group9.rules.wallRule import calculate_wall_area
 
 model_path = "C:/Users/romin/Desktop/Advanced Bilding information modelling/CES_BLD_24_06_ARC.ifc"
 model = ifcopenshell.open(model_path)
@@ -11,7 +11,8 @@ model = ifcopenshell.open(model_path)
 print("---------Group 1 Results-----------")
 checkRule(model) # Calculates and prints Floor2floor heights
 
-roofs = model.by_type('Ifcroof')
+
+""" roofs = model.by_type('Ifcroof')
 print("Number of roofs", len(roofs))
 
 elevations = model.by_type('IfcBuildingStorey')
@@ -40,4 +41,4 @@ print("Number of door types",len(door_types))
 print("---------Group 9 Results-----------")
 settings = ifcopenshell.geom.settings()  
 total_wall_area = calculate_wall_area(model, settings)
-print(f"Total wall area: {total_wall_area:.2f} square meters")
+print(f"Total wall area: {total_wall_area:.2f} square meters") """
