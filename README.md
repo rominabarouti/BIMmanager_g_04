@@ -1,6 +1,6 @@
 # BIM Manager Group 04
 
-Following is a summary of group report with different focus areas within the architectural discipline for assignment 1.  
+Following is a summary of group reports with different focus areas within the architectural discipline for assignment 1.  
 
 ## Group 1
 
