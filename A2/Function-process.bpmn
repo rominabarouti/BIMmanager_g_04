@@ -58,6 +58,7 @@
     </bpmn:exclusiveGateway>
     <bpmn:task id="Activity_1fhyp6n" name="Calculate element quantity">
       <bpmn:incoming>Flow_1het7de</bpmn:incoming>
+      <bpmn:outgoing>Flow_1mha408</bpmn:outgoing>
     </bpmn:task>
     <bpmn:task id="Activity_0r1tkul" name="Extract element material">
       <bpmn:incoming>Flow_0a3cce7</bpmn:incoming>
@@ -82,6 +83,7 @@
     </bpmn:task>
     <bpmn:task id="Activity_1k34e6l" name="Create table with element name, quantity, material and CO2 value">
       <bpmn:incoming>Flow_1wqhgoh</bpmn:incoming>
+      <bpmn:incoming>Flow_1mha408</bpmn:incoming>
       <bpmn:outgoing>Flow_05bfz47</bpmn:outgoing>
       <bpmn:outgoing>Flow_0dc1b49</bpmn:outgoing>
       <bpmn:outgoing>Flow_0qwtelg</bpmn:outgoing>
@@ -169,6 +171,7 @@
     <bpmn:sequenceFlow id="Flow_0j2pkhb" name="Yes" sourceRef="Gateway_0oqlyio" targetRef="Activity_1lx15h0" />
     <bpmn:sequenceFlow id="Flow_17zfj0z" name="No" sourceRef="Gateway_0oqlyio" targetRef="Activity_18kpakz" />
     <bpmn:sequenceFlow id="Flow_0g07jms" sourceRef="Activity_0s7p3vl" targetRef="Gateway_0oqlyio" />
+    <bpmn:sequenceFlow id="Flow_1mha408" sourceRef="Activity_1fhyp6n" targetRef="Activity_1k34e6l" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1yxwcvp">
@@ -471,6 +474,12 @@
       <bpmndi:BPMNEdge id="Flow_0g07jms_di" bpmnElement="Flow_0g07jms">
         <di:waypoint x="1460" y="400" />
         <di:waypoint x="1515" y="400" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1mha408_di" bpmnElement="Flow_1mha408">
+        <di:waypoint x="960" y="450" />
+        <di:waypoint x="990" y="450" />
+        <di:waypoint x="990" y="250" />
+        <di:waypoint x="1020" y="250" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="DataInputAssociation_1mynnfj_di" bpmnElement="DataInputAssociation_1mynnfj">
         <di:waypoint x="307" y="555" />
