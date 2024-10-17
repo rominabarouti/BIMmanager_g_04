@@ -48,7 +48,8 @@ A process to evaluate and track the sustainability performance of a facility by 
 
 The areas in green are where our tool is used.
 
-![Marked Diagram tool](Diagram-tool.svg)
+![Marked Diagram Tool](Diagram-Tool.svg)
+
 
 ## 2E
 
