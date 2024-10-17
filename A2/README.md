@@ -47,6 +47,7 @@ A process to evaluate and track the sustainability performance of a facility by 
 - **Identify where a new script / function / tool is needed.**
 
 The areas in green are where our tool is used.
+
 ![Marked Diagram tool](Diagram-tool.svg)
 
 ## 2E
