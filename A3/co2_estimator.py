@@ -1,20 +1,17 @@
-import ifcopenshell
 from pathlib import Path
+import ifcopenshell
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm 
-import json
 import numpy as np
-import ifcopenshell
-from pathlib import Path
 
 class ModelWithEstimator:
     def __init__(self, dir_path, arc_path, str_path, mep_path):
         """
-        Initialize the IFCModelHandler with paths to architectural, structural, and MEP models.
+        Initialize the ModelWithEstimator with paths to architectural, structural, and MEP models.
         
         Args:
-            dir_path (str): The base directory path where the IFC files are located.
+            dir_path (str): The base directory path.
             arc_path (str): The filename of the architectural model.
             str_path (str): The filename of the structural model.
             mep_path (str): The filename of the MEP model.
@@ -37,19 +34,6 @@ class ModelWithEstimator:
         for model_path in [self.arc_path, self.str_path, self.mep_path]:
             if not model_path.is_file():
                 raise FileNotFoundError(f"No file found at {model_path}!")
-
-    def get_models(self):
-        """
-        Return the loaded models as a dictionary.
-        
-        Returns:
-            dict: A dictionary containing the loaded models.
-        """
-        return {
-            'Architectural': self.arc_model,
-            'Structural': self.str_model,
-            'MEP': self.mep_model
-        }
     
     @staticmethod
     def simplify_name(name):
