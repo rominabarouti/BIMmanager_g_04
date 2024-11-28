@@ -1,0 +1,222 @@
+{
+    "Cladding, Gypsum Wall Board, Insulation, Structure, Wood": {
+        "CO2_per_volume": 480,
+        "CO2_per_area": 10.5,
+        "CO2_per_length": 1.5
+    },
+    "Concrete, Insulation, Steel, Structure, Tiles, Wood": {
+        "CO2_per_volume": 250,
+        "CO2_per_area": 9,
+        "CO2_per_length": 2
+    },
+    "Glass": {
+        "CO2_per_volume": 8000,
+        "CO2_per_area": 1200,
+        "CO2_per_length": 600
+    },
+    "Concrete": {
+        "CO2_per_volume": 250,
+        "CO2_per_area": 10,
+        "CO2_per_length": 2
+    },
+    "Concrete, Insulation": {
+        "CO2_per_volume": 300,
+        "CO2_per_area": 12,
+        "CO2_per_length": 3
+    },
+    "Concrete, Insulation, Plaster, Steel, Structure, Wood": {
+        "CO2_per_volume": 350,
+        "CO2_per_area": 12.5,
+        "CO2_per_length": 4
+    },
+    "Steel": {
+        "CO2_per_volume": 7800,
+        "CO2_per_area": 390,
+        "CO2_per_length": 78
+    },
+    "Cladding": {
+        "CO2_per_volume": 480,
+        "CO2_per_area": 10,
+        "CO2_per_length": 2
+    },
+    "Insulation, Shingles": {
+        "CO2_per_volume": 180,
+        "CO2_per_area": 5,
+        "CO2_per_length": 1
+    },
+    "Concrete, Insulation, Shingles": {
+        "CO2_per_volume": 240,
+        "CO2_per_area": 8,
+        "CO2_per_length": 2
+    },
+    "DF_Material1": {
+        "CO2_per_volume": 300,
+        "CO2_per_area": 8,
+        "CO2_per_length": 2
+    },
+    "Gypsum Board, Wood Frame, Non-Load Bearing": {
+        "CO2_per_volume": 120,
+        "CO2_per_area": 4,
+        "CO2_per_length": 1
+    },
+    "Engineered Wood Flooring, Pine": {
+        "CO2_per_volume": 210,
+        "CO2_per_area": 5,
+        "CO2_per_length": 1.2
+    },
+    "Ceramic Tile, Glazed": {
+        "CO2_per_volume": 700,
+        "CO2_per_area": 20,
+        "CO2_per_length": 5
+    },
+    "Standard Concrete, Regular Mix": {
+        "CO2_per_volume": 250,
+        "CO2_per_area": 10,
+        "CO2_per_length": 2
+    },
+    "Laminate Flooring, High-Pressure Laminate": {
+        "CO2_per_volume": 250,
+        "CO2_per_area": 15,
+        "CO2_per_length": 3
+    },
+    "Asphalt Pavement, Hot Mix": {
+        "CO2_per_volume": 200,
+        "CO2_per_area": 6,
+        "CO2_per_length": 1.8
+    },
+    "Natural Grass, Turf": {
+        "CO2_per_volume": 50,
+        "CO2_per_area": 1.5,
+        "CO2_per_length": 0.5
+    },
+    "Asphalt Road, Hot Mix": {
+        "CO2_per_volume": 230,
+        "CO2_per_area": 7,
+        "CO2_per_length": 2
+    },
+    "Wooden Door, Glass Insert": {
+        "CO2_per_volume": 180,
+        "CO2_per_area": 12,
+        "CO2_per_length": 4
+    },
+    "Wooden Door, Double, Glass Insert": {
+        "CO2_per_volume": 220,
+        "CO2_per_area": 14,
+        "CO2_per_length": 5
+    },
+    "Solid Wood Door": {
+        "CO2_per_volume": 200,
+        "CO2_per_area": 10,
+        "CO2_per_length": 3
+    },
+    "Aluminum Frame, Glass, Ventilation Fanlight": {
+        "CO2_per_volume": 5000,
+        "CO2_per_area": 1500,
+        "CO2_per_length": 400
+    },
+    "Aluminum Frame, Glass": {
+        "CO2_per_volume": 5000,
+        "CO2_per_area": 1000,
+        "CO2_per_length": 300
+    },
+    "Gypsum Ceiling Tiles, Steel Suspension System": {
+        "CO2_per_volume": 1200,
+        "CO2_per_area": 40,
+        "CO2_per_length": 10
+    },
+    "Acoustic Ceiling Tiles, Mineral Fiber": {
+        "CO2_per_volume": 350,
+        "CO2_per_area": 12,
+        "CO2_per_length": 3
+    },
+    "Wood Framed, Double-Glazed Glass": {
+        "CO2_per_volume": 300,
+        "CO2_per_area": 25,
+        "CO2_per_length": 10
+    },
+    "Tempered Glass": {
+        "CO2_per_volume": 8000,
+        "CO2_per_area": 1200,
+        "CO2_per_length": 600
+    },
+    "Concrete Wall, Insulation": {
+        "CO2_per_volume": 300,
+        "CO2_per_area": 10,
+        "CO2_per_length": 2
+    },
+    "Stainless Steel Handrail": {
+        "CO2_per_volume": 7800,
+        "CO2_per_area": 390,
+        "CO2_per_length": 78
+    },
+    "Framed Mirror, Glass": {
+        "CO2_per_volume": 7000,
+        "CO2_per_area": 1500,
+        "CO2_per_length": 500
+    },
+    "Composite Material, Thermoplastic": {
+        "CO2_per_volume": 1500,
+        "CO2_per_area": 50,
+        "CO2_per_length": 15
+    },
+    "Plastic, Metal": {
+        "CO2_per_volume": 3000,
+        "CO2_per_area": 100,
+        "CO2_per_length": 30
+    },
+    "Ceramic, Plastic": {
+        "CO2_per_volume": 400,
+        "CO2_per_area": 12,
+        "CO2_per_length": 4
+    },
+    "Porcelain Ceramic": {
+        "CO2_per_volume": 600,
+        "CO2_per_area": 18,
+        "CO2_per_length": 6
+    },
+    "Concrete, Normal Mix": {
+        "CO2_per_volume": 250,
+        "CO2_per_area": 10,
+        "CO2_per_length": 2
+    },
+    "Concrete, Reinforced": {
+        "CO2_per_volume": 300,
+        "CO2_per_area": 12,
+        "CO2_per_length": 3
+    },
+    "Reinforced Concrete": {
+        "CO2_per_volume": 350,
+        "CO2_per_area": 13,
+        "CO2_per_length": 4
+    },
+    "Steel, Concrete": {
+        "CO2_per_volume": 7800,
+        "CO2_per_area": 390,
+        "CO2_per_length": 78
+    },
+    "Precast Concrete, Hollow Core": {
+        "CO2_per_volume": 270,
+        "CO2_per_area": 9,
+        "CO2_per_length": 2
+    },
+    "Precast Concrete": {
+        "CO2_per_volume": 280,
+        "CO2_per_area": 10,
+        "CO2_per_length": 3
+    },
+    "Plastic": {
+        "CO2_per_volume": 1500,
+        "CO2_per_area": 50,
+        "CO2_per_length": 15
+    },
+    "Metal, Plastic": {
+        "CO2_per_volume": 3800,
+        "CO2_per_area": 120,
+        "CO2_per_length": 40
+    },
+    "Metal": {
+        "CO2_per_volume": 7800,
+        "CO2_per_area": 390,
+        "CO2_per_length": 78
+    }
+}
