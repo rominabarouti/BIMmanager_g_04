@@ -9,6 +9,11 @@ Our specific use case focused on quantifying the CO₂ emissions of building ele
 # CO₂ Emission Analysis with BIM Models
 **Summary:** We extracted building elements from IFC models, assigned assumed materials, and calculated CO₂ emissions using Python. The results were visualized to highlight environmental impacts and identify opportunities for improvement.
 
+# Summary
+
+**Title:** Using Python and Ifcopenshell to estimate building's CO2 emission
+**Description:**  A python tool that takes advantage of ifcopenshell library to extract element quantity and material information and combines it with external CO2 emission factors to calculate annual CO2 footprint of building elements. The tool also provides plots for better assessment of the results.
+
 # Code Snippets
 
 Here are a few snippets of the tool to demonstrate how the tool was created. For a visual walkthrough, click on this [link](https://youtu.be/JVlfLT0Y1Ok). The tool is a python class with several methods to calculate and display results. 
