@@ -12,6 +12,7 @@ Our specific use case focused on quantifying the CO₂ emissions of building ele
 # Summary
 
 **Title:** Using Python and Ifcopenshell to estimate building's CO2 emission
+
 **Description:**  A python tool that takes advantage of ifcopenshell library to extract element quantity and material information and combines it with external CO2 emission factors to calculate annual CO2 footprint of building elements. The tool also provides plots for better assessment of the results.
 
 # Code Snippets
